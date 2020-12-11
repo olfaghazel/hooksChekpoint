@@ -1,0 +1,54 @@
+*{
+    color:white;
+    background-color: black;
+}
+
+/*************************Header******************/
+.header{ 
+    width:1100px;
+    margin: 0px auto;
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.addMovie{
+    height:40px;
+    font-weight: 500;
+    background-color: black;
+    border:solid yellow 1px ;
+    border-radius: 5px;
+    color: yellow;
+}
+ .addMovie:hover{
+     background-color: yellow;
+     color: black;
+ }
+/**************Add Movie************/
+.modalDilalog{
+    background-color: white;
+}
+
+.formControl{
+    margin-bottom: 30px;
+}
+
+
+
+
+/***************MovieCard***************/
+.cardGroup{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    margin:15px;
+    transition: all .1s ease-in-out;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
